@@ -6,9 +6,11 @@ import Header from './Header';
 export default function Layout() {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      {/* <Header /> */}
+      <main className="page-main">
+        <Outlet />
+      </main>
+      {/* <Footer /> */}
     </>
   );
 }

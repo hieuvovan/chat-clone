@@ -14,16 +14,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "paths": {
-      "@pages/*": ["./src/app/pages/*"],
-      "@helpers/*": ["./src/app/shared/helpers/*"],
-      "@services/*": ["./src/app/core/services/*"],
-      "@components/*": ["./src/app/shared/components/*"],
-      "@constants/*": ["./src/app/core/constants/*"],
-      "@interfaces/*": ["./src/app/core/interfaces/*"],
-      "@HOCs/*": ["./src/app/HOCs/*"]
-    }
+    "jsx": "react-jsx"
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@pages/*": ["src/app/pages/*"],
+    //   "@shared/*": ["src/app/shared/*"],
+    //   "@core/*": ["src/app/core/*"],
+    //   "@HOCs/*": ["src/app/HOCs/*"]
+    // }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
