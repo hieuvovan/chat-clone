@@ -1,0 +1,19 @@
+.txt-center {
+  text-align: center;
+}
+
+.txt-bold {
+  font-weight: map-get($font-weight, bold);
+}
+
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
+.txt-italic {
+  font-style: italic;
+}
+
+.text-white {
+  color: white !important;
+}

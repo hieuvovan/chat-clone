@@ -1,6 +1,5 @@
 import React, { lazy } from 'react';
-import { IPageRoute } from '@interfaces/IPageRoute';
-
+import { IPageRoute } from '../core/interfaces';
 const Login = lazy(() => import('../pages/login'));
 const AuthLayout = lazy(() => import('../shared/components/layout/AuthLayout'));
 

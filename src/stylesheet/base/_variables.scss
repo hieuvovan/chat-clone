@@ -1,0 +1,49 @@
+$text-line-height: 1.5;
+$base-font-family: 'roboto', sans-serif;
+
+$color: (
+  primary: #389e0d,
+  secondary: #242625,
+  gray: #8b8b8b,
+  gray-light: #eeebe2,
+  text-light: #616161,
+  border-light: #dfe0e0,
+  blue-light: #207dca,
+  white: #ffffff,
+  green-light: #4f996b,
+  red: #f13232,
+  forest: #1c5e58,
+  red-light: #db4437,
+  pink-light: #f3d8da,
+  success: #49cc90,
+);
+
+$font-size: (
+  base: 14px,
+  xxs: 10px,
+  xs: 12px,
+  sm: 13px,
+  m: 16px,
+  md: 24px,
+  lg: 32px,
+  xl: 72px,
+);
+
+$font-weight: (
+  light: 300,
+  primary: 400,
+  bold: 700,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$col-padding-sm: 4px;
+
+$grid-columns: 12;
+$col-padding: 10px;
